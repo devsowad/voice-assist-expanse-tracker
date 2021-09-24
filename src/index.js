@@ -27,7 +27,7 @@ ReactDOM.render(
   <ThemeProvider theme={responsiveFontSizes(theme)}>
     <CssBaseline />
     <SpeechProvider
-      appId={process.env.REACT_APP_SPEECHLY_APP_ID}
+      appId='a0d0cab8-930e-4863-ad55-637351fe2a84'
       language='en-US'
     >
       <Provider>
